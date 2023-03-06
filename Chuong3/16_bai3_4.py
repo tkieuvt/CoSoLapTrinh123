@@ -1,0 +1,11 @@
+a=int(input())
+b=int(input())
+c=int(input())
+c=(c+a*2+b*3)/6
+if c>=9: print("Xuất sắc")
+elif c>=8: print("Giỏi")
+elif c>=7: print("Khá")
+elif c>=6: print("Trung bình Khá")
+elif c>=5: print("Trung bình")
+elif c>=3: print("Yếu")
+else: print("Kém")
