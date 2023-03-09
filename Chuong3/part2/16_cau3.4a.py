@@ -1,5 +1,6 @@
 n=9
-while (n>0):
+n=int(input())
+while (n>=1):
     print("$"*n)
     n=n-1
 
