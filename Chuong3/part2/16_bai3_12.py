@@ -1,6 +1,7 @@
 a=['A','B','C','D','E','F','G','H','K','L']
 n=int(input())
 s=""
+if n==0: s='A'
 while n>0:
     mod=n%10
     n=n//10
