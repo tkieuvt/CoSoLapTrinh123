@@ -1,14 +1,16 @@
-a=['A','B','C','D','E','F','G','H','K','L']
+'''a=['A','B','C','D','E','F','G','H','K','L']
 n=int(input())
 s=""
 if n==0: s='A'
 while n>0:
-    mod=n%10
+    mod=n%10 
     n=n//10
     s=a[mod]+s
 print(s)
-'''n=int(input())
+'''
+n=int(input())
 s=""
+if n==0: s="A"
 while n>0:
     mod=n%10
     n=n//10
@@ -22,4 +24,4 @@ while n>0:
     elif mod==7: s='H'+s
     elif mod==8: s='K'+s
     else: s='L'+s
-print(s)'''
+print(s)
