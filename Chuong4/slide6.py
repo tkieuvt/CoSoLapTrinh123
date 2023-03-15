@@ -9,3 +9,6 @@ def tinh(n):
     return s
 def inkq(n,s):
     print("Tong cua ",n," so nguyen duong dau tien=",s,sep="")
+n=nhap()
+s=tinh(n)
+inkq(n,s)
