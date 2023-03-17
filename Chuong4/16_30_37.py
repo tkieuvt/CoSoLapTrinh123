@@ -20,5 +20,6 @@ print("Máy: ",may)
 while (nguoi!=0):
     print("Kết quả: ",game(nguoi,may))
     nguoi=int(input("Người: "))
+    if (nguoi==0): break
     may=random.randint(1,3)
     print("Máy: ",may)
