@@ -1,0 +1,1 @@
+# nhập n, in kq số nguyên tố sau n
