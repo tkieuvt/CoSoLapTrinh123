@@ -10,4 +10,5 @@ def nextPrime(n):
                 break
         if d==0: return i
 n=nhap()
+
 print(nextPrime(n))
