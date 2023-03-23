@@ -2,7 +2,7 @@ def nhap():
     n=int(input())
     return n
 def nextPrime(n):
-    for i in range(n+1,1000000000000000):
+    for i in range(n+1,100000000000000):
         d=0
         for j in range(2,i):
             if i%j==0: 
