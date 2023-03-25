@@ -3,6 +3,7 @@ def nhap():
     return n
 def tienvanchuyen(n):
     n-=1
-    print("Phi van chuyen cho don hang:",round(10.95+n*2.95,2))
+    s=10.95+n*2.95
+    print("Phi van chuyen cho don hang:",s)
 n=nhap()
 tienvanchuyen(n)
