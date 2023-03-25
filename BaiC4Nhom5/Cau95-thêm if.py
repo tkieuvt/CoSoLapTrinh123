@@ -7,6 +7,8 @@ def bienso():
     so2=chr(random.randint(48,57))
     so3=chr(random.randint(48,57))
     so4=chr(random.randint(48,57))
-    print('Bien so xe ngau nhien la: ',chu1,chu2,chu3,'-',so1,so2,so3,so4,sep='')
+    if random.random() > 0.5 :
+        print('Bien so xe ngau nhien la: ',chu1,chu2,chu3,'-',so1,so2,so3,so4,sep='')
+    else: print('Bien so xe ngau nhien la: ',chu1,chu2,chu3,'-',so1,so2,so3,sep='')
     
 bienso()
