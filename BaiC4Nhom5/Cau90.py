@@ -1,12 +1,28 @@
-text = input("Input a string: ")
-text = text.strip()
-if len(text) < 1:
-    print("Input a valid text")
-else:
-    if all(text[i] in " " for i in range(len(text))):
-        print("The string is an integer.")
-    elif (text[0] in "+-") and \
-         all(text[i] in " " for i in range(1,len(text))):
-         print("The string is an integer.")
+def NhapChuoi():
+    n=str(input('Nhap chuoi: '))
+    return n
+def isInterger(n):
+    a=0
+    b=0
+    c=0
+    for j in n:
+        b=b+1
+    for i in n:
+        for h in n:
+            while c==0:
+                if h=='+' or h=='-':
+                    a=a+1
+                    c=c+1
+                else:
+                    break
+            break
+        if i==' ':
+            a=a+1
+        if '0'<=i<='9':
+            a=a+1
+    if a==b:
+        print('Chuoi nay dai dien cho so nguyen')
     else:
-        print("The string is not an integer.") 
+        print('Chuoi nay khong dai dien cho so nguyen')
+n=NhapChuoi()
+isInterger(n)

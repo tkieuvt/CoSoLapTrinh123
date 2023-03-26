@@ -1,14 +1,14 @@
 def Viethoa_str(s):
     s = s.capitalize()
     s = s.replace(" i ", " I ")
-    index = 0
-    while index < len(s) and s[index] not in ".!?":
-        index += 1
-    while index < len(s):
-        if s[index].isalpha():
-            s = s[:index] + s[index:].capitalize()
-            break
-        index += 1
+    for i in range(0,len(s)):
+        #print(s[i],end=" ")
+        if s[i]=='.' or s[i]=='!' or s[i]=='?' :
+            j=i+1
+            for j in range(i+1,len(s)):
+                if s[j]!=' ': 
+                    s=s[:j]+s[j:].capitalize()
+                    break
     return s
 a= input("Nhap 1 chuoi: ")
 VIETHOA_str = Viethoa_str(a)
