@@ -13,3 +13,5 @@ def Viethoa_str(s):
 a= input("Nhap 1 chuoi: ")
 VIETHOA_str = Viethoa_str(a)
 print(VIETHOA_str)
+
+#
