@@ -6,8 +6,9 @@ def nhap():
     return a,b,c
 def max3(a,b,c):
     kq=a
-    kq=max(kq,b)
-    kq=max(kq,c)
+    # kq=max(kq,b)
+    # kq=max(kq,c)
+    kq=max(b,max(kq,c))
     return kq
 def inkq(kq):
     print("So lon nhat la:",kq)
