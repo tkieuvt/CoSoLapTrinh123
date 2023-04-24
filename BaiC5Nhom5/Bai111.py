@@ -1,9 +1,9 @@
 #tách từng từ trong câu có sẵn
-punc = ['.',',','?','!','-',':',';']
+punctuation = ['.',',','?','!','-',':',';']
 s = input("Nhap chuoi: ")
 s += " "
-for i in range(len(punc)) :
-    s = s.replace(punc[i],"")
+for i in range(len(punctuation)) :
+    s = s.replace(punctuation[i],"")
 #tách từ
 b = s.split()
 print(b)
