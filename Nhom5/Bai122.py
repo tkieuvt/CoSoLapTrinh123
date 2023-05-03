@@ -3,7 +3,7 @@ def tokenize(s):
     token_2 = ""
     for i in range(len(s)):
         if s[i].isspace(): 
- #kiểm tra xem ký tự hiện tại trong biểu thức toán học có phải là khoảng trắng (space), tab(\t),newline(\n)hay không.
+ #  kiểm tra xem ký tự hiện tại trong biểu thức toán học có phải là khoảng trắng (space), tab (\t), newline (\n)  hay không.
             continue
         elif s[i] in "+-*/^()":
             if len(token_2) > 0:

@@ -1,5 +1,4 @@
 import random
-
 def taobai():
     deck = []
     chat = ['h', 'd', 'c', 's']
