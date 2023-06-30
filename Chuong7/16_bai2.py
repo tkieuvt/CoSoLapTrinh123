@@ -18,6 +18,5 @@ while i < len(a):
         del(a[i])
     else : 
         i += 1
-print(a)
 s = " ".join(a)
 print(s.capitalize())

@@ -7,12 +7,11 @@ def nhap():
 def delete(a):
     i = 0
     m = []
-    while i < len(a):
-        m += [a[i]]
-        x = a[i]
-        while x in a:
-            a.remove(x)
+    for i in a:
+        if i not in m : 
+            m += [i]
     return m
 a = nhap()
-a = delete(a)    
-print(a)
+a = delete(a)   
+for i in range(len(a)):
+    print(a[i],end=" ")
